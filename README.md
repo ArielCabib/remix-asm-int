@@ -10,6 +10,24 @@ Run the dev server:
 npm run dev
 ```
 
+## Example usage
+
+Copy the following code into the textarea and press run:
+
+```
+start:
+MOV a 5
+MOV b 10
+loop:
+ADD a b
+SUB b 1
+JNZ b loop
+JMP end
+MOV a 100
+end:
+HLT
+```
+
 ## Deployment
 
 First, build your app for production:
